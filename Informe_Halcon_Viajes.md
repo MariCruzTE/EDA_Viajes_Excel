@@ -25,8 +25,8 @@ El conjunto de datos contiene información detallada sobre
 - el comportamiento posterior a la reserva.
 
 A continuación, se presenta una breve descripción de las columnas más relevantes:
-Datos de los Usuarios:
 
+Datos de los Usuarios:
 - **ID_Reserva**: Identificador único del usuario.
 - **Edad**: Edad del viajero.
 - **Género**: Género del usuario (Male, Female, Other).
@@ -57,8 +57,8 @@ Datos de los Usuarios:
 - **Mes_Viaje**: Mes programado para el viaje.
 - **Estacionalidad**: Indica si la reserva se realizó durante temporada alta o baja.
   Feedback del Usuario:
--     **Calificacion_Usuario**: Calificación proporcionada por el usuario (1 a 5).
--     **Comentarios**: Comentarios adicionales sobre la experiencia del usuario.
+- **Calificacion_Usuario**: Calificación proporcionada por el usuario (1 a 5).
+- **Comentarios**: Comentarios adicionales sobre la experiencia del usuario.
 
 ## 4. Próximos Pasos
 
