@@ -24,7 +24,7 @@ El objetivo principal de este proyecto es crear uno o varios dashboards interact
 |---data                           #Carpeta con los archivos de datos
      |---halcon_viajes.csv         #Datos originales
 |---excels
-
+     |---carga_transf_datos.xlsx   #Excel con los datos originales
 ```
 
 ## 4. Descripción de las Columnas del Conjunto de Datos
@@ -38,7 +38,8 @@ El conjunto de datos contiene información detallada sobre
 A continuación, se presenta una breve descripción de las columnas más relevantes:
 
 - Datos de los Usuarios:
-  - **ID_Reserva**: Identificador único del usuario.
+  - **ID_Usuario**: Identificador único del usuario.
+  - **DNI_Usuario**: Documento nacional de identidad del usuario
   - **Edad**: Edad del viajero.
   - **Género**: Género del usuario (Male, Female, Other).
   - **Ubicación**: Ubicación geográfica del usuario (país o ciudad).
@@ -53,6 +54,7 @@ A continuación, se presenta una breve descripción de las columnas más relevan
   - **Tipo_Paquete**: Tipo de paquete reservado (Solo vuelo, Vuelo + Hotel, Vuelo + Hotel + Tour).
   - **Costo_Total**: Monto total de la reserva.
     Detalles del Viaje:
+  - **Metodo_Pago**: Método con el que se ha realizado el pago de la reserva.
   - **Destino**: Destino del viaje (puede ser ciudad o país).
   - **Tipo_Alojamiento**: Tipo de alojamiento reservado (Hotel, Airbnb, Resort, etc.).
   - **Clase_Vuelo**: Clase de vuelo seleccionada (Económica, Ejecutiva, Primera clase).
@@ -62,11 +64,11 @@ A continuación, se presenta una breve descripción de las columnas más relevan
   - **Promocion_Aplicada**: Indica si se aplicó una promoción o descuento en la reserva.
   - **Fuente_Reserva**: Canal a través del cual se realizó la reserva (Sitio web, App móvil, Agente de viajes).
   - **Estado_Reserva**: Estado de la reserva (Confirmada, Pendiente, Cancelada).
-  - **Cancelacion_Reserva**: Indicador binario que señala si la reserva fue cancelada (Sí/No).
 - Información Temporal:
   - **Mes_Reserva**: Mes en que se realizó la reserva.
   - **Mes_Viaje**: Mes programado para el viaje.
   - **Estacionalidad**: Indica si la reserva se realizó durante temporada alta o baja.
+  - **Cancelacion_Reserva**: Indicador binario que señala si la reserva fue cancelada (Sí/No).
 - Feedback del Usuario:
   - **Calificacion_Usuario**: Calificación proporcionada por el usuario (1 a 5).
   - **Comentarios**: Comentarios adicionales sobre la experiencia del usuario.
@@ -81,7 +83,7 @@ A continuación, se presenta una breve descripción de las columnas más relevan
 - Lectura del informe de requisitos proporcionado por el cliente
 - Creación del sistema de carpetas del repositorio
 - Se añadió el conjunto de datos original a la carpeta data halcon_viajes.csv
-
+- Se creò el excel `carga_transf_datos.xlsx` se cargo el conjunto de datos original `csv` y se creò una tabla
 
 ## 6. Próximos Pasos
 
