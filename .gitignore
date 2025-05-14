@@ -18,3 +18,5 @@ Thumbs.db
 # Carpetas de salida o datos procesados (ajusta según nombres de carpetas de tu proyecto)
 output/
 data/processed/
+
+Informe_Halcon_Viajes.md
