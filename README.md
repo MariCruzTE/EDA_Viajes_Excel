@@ -85,6 +85,18 @@ A continuación, se presenta una breve descripción de las columnas más relevan
 - Se añadió el conjunto de datos original a la carpeta data halcon_viajes.csv
 - Se creò el excel `carga_transf_datos.xlsx` se cargo el conjunto de datos original `csv` y se creò una tabla
 
+### Sesión 2
+-  Se comprobó la presencia de duplicados.Eliminando los registros con DNI duplicados.
+-  Se tradujo las categorías de las columnas "Genero", "Ubicación", "Destino",  y "Cancelación_Reserva".
+- Se corrigieron los registros erróneos de "Tipo_Viajeros"
+- Se pasaron a datos de fechas las columnas "Fecha_Reserva" y "Fecha_Viaje"
+- Se comprobaron los datos de "Antelación", "Numero_Noches_Estancia","Mes_Estancia" y "Mes_Viaje". Al ser erróneos se recalcularon
+- Se cambio la categoría "Solo Vuelo" de la columna "Tipo_Paquete" por "Vuelo"
+- Se convirtieron los datos de ·Costo_Total" a decimales.
+- Se comprobó el sentido de los nulos para las columnas "Actividades_Reservadas" y Tipo_Alojamiento"
+- Se crearon las columnas "Rangos_Edad", "Gasto_Persona" y "Gasto_duración"
+
+
 ## 6. Próximos Pasos
 
 1. Recepción de los datos completos: Obtener todos los datos históricos necesarios para el análisis.
