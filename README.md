@@ -96,6 +96,9 @@ A continuación, se presenta una breve descripción de las columnas más relevan
 - Se comprobó el sentido de los nulos para las columnas "Actividades_Reservadas" y Tipo_Alojamiento"
 - Se crearon las columnas "Rangos_Edad", "Gasto_Persona" y "Gasto_duración"
 
+### Sesion 3
+-  se hace un analisis de estadistica descriptiva de las categoria numericas
+
 
 ## 6. Próximos Pasos
 
